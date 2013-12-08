@@ -4,7 +4,7 @@ Tags: ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, affiliate
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal@woothemes.com&item_name=Donation+for+WooCommerce
 Requires at least: 3.5
 Tested up to: 3.7
-Stable tag: 2.0.20_modplasenet
+Stable tag: 2.0.20_modplase.net
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
