@@ -77,10 +77,10 @@ function woocommerce_template_redirect() {
 		}
 	}
 
-	// Force SSL
+	// Force SSL + pagina conctact
 	elseif ( get_option('woocommerce_force_ssl_checkout') == 'yes' && ! is_ssl() ) {
 
-		if ( is_checkout() || is_account_page() || apply_filters( 'woocommerce_force_ssl_checkout', false ) ) {
+		if ( is_checkout() || is_account_page() || is_page(48) || apply_filters( 'woocommerce_force_ssl_checkout', false ) ) {
 			if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
 				wp_safe_redirect( preg_replace( '|^http://|', 'https://', $_SERVER['REQUEST_URI'] ) );
 				exit;
@@ -93,7 +93,7 @@ function woocommerce_template_redirect() {
 	}
 
 	// Break out of SSL if we leave the checkout/my accounts (anywhere but thanks)
-	elseif ( get_option('woocommerce_force_ssl_checkout') == 'yes' && get_option('woocommerce_unforce_ssl_checkout') == 'yes' && is_ssl() && $_SERVER['REQUEST_URI'] && ! is_checkout() && ! is_page( woocommerce_get_page_id('thanks') ) && ! is_ajax() && ! is_account_page() && apply_filters( 'woocommerce_unforce_ssl_checkout', true ) ) {
+	elseif ( get_option('woocommerce_force_ssl_checkout') == 'yes' && get_option('woocommerce_unforce_ssl_checkout') == 'yes' && is_ssl() && $_SERVER['REQUEST_URI'] && ! is_checkout() && ! is_page( woocommerce_get_page_id('thanks') ) && ! is_ajax() && ! is_account_page() && ! is_page(23) && apply_filters( 'woocommerce_unforce_ssl_checkout', true ) ) {
 
 		if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
 			wp_safe_redirect( preg_replace( '|^https://|', 'http://', $_SERVER['REQUEST_URI'] ) );
