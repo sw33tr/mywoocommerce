@@ -80,7 +80,7 @@ function woocommerce_template_redirect() {
 	// Force SSL + pagina conctact
 	elseif ( get_option('woocommerce_force_ssl_checkout') == 'yes' && ! is_ssl() ) {
 
-		if ( is_checkout() || is_account_page() || is_page(48) || apply_filters( 'woocommerce_force_ssl_checkout', false ) ) {
+		if ( is_checkout() || is_account_page() || is_page(23) || apply_filters( 'woocommerce_force_ssl_checkout', false ) ) {
 			if ( 0 === strpos( $_SERVER['REQUEST_URI'], 'http' ) ) {
 				wp_safe_redirect( preg_replace( '|^http://|', 'https://', $_SERVER['REQUEST_URI'] ) );
 				exit;
