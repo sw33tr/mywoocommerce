@@ -1941,7 +1941,7 @@ msgstr "Oraș"
 #: classes/class-wc-countries.php:930 classes/class-wc-countries.php:931
 #: classes/class-wc-countries.php:991
 msgid "State / County"
-msgstr "Stat / Județ"
+msgstr "Sector / Județ"
 
 # @ woocommerce
 #: classes/class-wc-countries.php:955
