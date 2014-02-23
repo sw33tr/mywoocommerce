@@ -1,40 +1,23 @@
-# 
+#
 # Translators:
 # AIRoman <aur3l.roman@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2013-03-04 09:46:16+00:00\n"
-"PO-Revision-Date: 2013-10-27 17:18+0200\n"
-"Last-Translator: sw33tr <dobreorama@gmail.com>\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
-"X-Poedit-Basepath: ../../\n"
-"X-Textdomain-Support: yes\n"
-"X-Poedit-SearchPath-0: .\n"
-
-# @ woocommerce
-=======
 "POT-Creation-Date: 2014-02-12 13:22:09+00:00\n"
-"PO-Revision-Date: 2014-02-13 08:32+0000\n"
-"Last-Translator: mikejolley <mike.jolley@me.com>\n"
-"Language-Team: Romanian (Romania) (http://www.transifex.com/projects/p/woocommerce-core/language/ro_RO/)\n"
+"PO-Revision-Date: 2014-02-23 13:31+0200\n"
+"Last-Translator: sw33tr <dobreorama@gmail.com>\n"
+"Language-Team: Romanian (Romania) (http://www.transifex.com/projects/p/"
+"woocommerce-core/language/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro_RO\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Generator: Poedit 1.5.4\n"
 
->>>>>>> upstream/master
 #: assets/js/admin/editor_plugin_lang.php:5
 msgid "Insert Shortcode"
 msgstr "Inserează Scurtătură de Cod"
@@ -1387,17 +1370,9 @@ msgstr ""
 msgid "Monza e della Brianza"
 msgstr ""
 
-<<<<<<< HEAD
-# @ woocommerce
-#: classes/class-wc-countries.php:930 classes/class-wc-countries.php:931
-#: classes/class-wc-countries.php:991
-msgid "State / County"
-msgstr "Sector / Județ"
-=======
 #: i18n/states/IT.php:72
 msgid "Napoli"
 msgstr ""
->>>>>>> upstream/master
 
 #: i18n/states/IT.php:73
 msgid "Novara"
@@ -1953,8 +1928,8 @@ msgstr ""
 
 #: i18n/states/TH.php:13
 msgid ""
-"Amnat Charoen "
-"(&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;&#3636;&#3597;)"
+"Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;"
+"&#3636;&#3597;)"
 msgstr ""
 
 #: i18n/states/TH.php:14
@@ -1963,14 +1938,14 @@ msgstr ""
 
 #: i18n/states/TH.php:15
 msgid ""
-"Ayutthaya "
-"(&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
+"Ayutthaya (&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;"
+"&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:16
 msgid ""
-"Bangkok "
-"(&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;&#3634;&#3609;&#3588;&#3619;)"
+"Bangkok (&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;"
+"&#3634;&#3609;&#3588;&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:17
@@ -1984,8 +1959,8 @@ msgstr ""
 
 #: i18n/states/TH.php:19
 msgid ""
-"Chachoengsao "
-"(&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;&#3634;)"
+"Chachoengsao (&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;"
+"&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:20
@@ -2024,14 +1999,14 @@ msgstr ""
 
 #: i18n/states/TH.php:28
 msgid ""
-"Kamphaeng Phet "
-"(&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;&#3619;)"
+"Kamphaeng Phet (&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;"
+"&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:29
 msgid ""
-"Kanchanaburi "
-"(&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+"Kanchanaburi (&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:30
@@ -2060,14 +2035,14 @@ msgstr ""
 
 #: i18n/states/TH.php:36
 msgid ""
-"Mae Hong Son "
-"(&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;&#3609;)"
+"Mae Hong Son (&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;"
+"&#3609;)"
 msgstr ""
 
 #: i18n/states/TH.php:37
 msgid ""
-"Maha Sarakham "
-"(&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;&#3617;)"
+"Maha Sarakham (&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;"
+"&#3617;)"
 msgstr ""
 
 #: i18n/states/TH.php:38
@@ -2088,20 +2063,20 @@ msgstr ""
 
 #: i18n/states/TH.php:42
 msgid ""
-"Nakhon Ratchasima "
-"(&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;&#3617;&#3634;)"
+"Nakhon Ratchasima (&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;"
+"&#3617;&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:43
 msgid ""
-"Nakhon Sawan "
-"(&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;&#3660;)"
+"Nakhon Sawan (&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;"
+"&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:44
 msgid ""
-"Nakhon Si Thammarat "
-"(&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;&#3619;&#3617;&#3619;&#3634;&#3594;)"
+"Nakhon Si Thammarat (&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;"
+"&#3619;&#3617;&#3619;&#3634;&#3594;)"
 msgstr ""
 
 #: i18n/states/TH.php:45
@@ -2114,8 +2089,8 @@ msgstr ""
 
 #: i18n/states/TH.php:47
 msgid ""
-"Nong Bua Lam Phu "
-"(&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;&#3635;&#3616;&#3641;)"
+"Nong Bua Lam Phu (&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;"
+"&#3635;&#3616;&#3641;)"
 msgstr ""
 
 #: i18n/states/TH.php:48
@@ -2127,8 +2102,7 @@ msgid "Nonthaburi (&#3609;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:50
-msgid ""
-"Pathum Thani (&#3611;&#3607;&#3640;&#3617;&#3608;&#3634;&#3609;&#3637;)"
+msgid "Pathum Thani (&#3611;&#3607;&#3640;&#3617;&#3608;&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:51
@@ -2174,14 +2148,14 @@ msgstr ""
 
 #: i18n/states/TH.php:61
 msgid ""
-"Prachin Buri "
-"(&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+"Prachin Buri (&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:62
 msgid ""
-"Prachuap Khiri Khan "
-"(&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
+"Prachuap Khiri Khan (&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;"
+"&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:63
@@ -2210,20 +2184,20 @@ msgstr ""
 
 #: i18n/states/TH.php:69
 msgid ""
-"Samut Prakan "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;&#3634;&#3619;)"
+"Samut Prakan (&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;"
+"&#3634;&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:70
 msgid ""
-"Samut Sakhon "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;&#3619;)"
+"Samut Sakhon (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;"
+"&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:71
 msgid ""
-"Samut Songkhram "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;&#3619;&#3634;&#3617;)"
+"Samut Songkhram (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;"
+"&#3619;&#3634;&#3617;)"
 msgstr ""
 
 #: i18n/states/TH.php:72
@@ -2253,14 +2227,14 @@ msgstr ""
 
 #: i18n/states/TH.php:78
 msgid ""
-"Suphan Buri "
-"(&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;&#3637;)"
+"Suphan Buri (&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;"
+"&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:79
 msgid ""
-"Surat Thani "
-"(&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;&#3634;&#3609;&#3637;)"
+"Surat Thani (&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;"
+"&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:80
@@ -2281,8 +2255,8 @@ msgstr ""
 
 #: i18n/states/TH.php:84
 msgid ""
-"Ubon Ratchathani "
-"(&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;&#3634;&#3609;&#3637;)"
+"Ubon Ratchathani (&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;"
+"&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:85
@@ -2291,8 +2265,7 @@ msgstr ""
 
 #: i18n/states/TH.php:86
 msgid ""
-"Uthai Thani "
-"(&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
+"Uthai Thani (&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:87
@@ -3042,9 +3015,11 @@ msgstr "Șterge fișierul șablon"
 
 #: includes/abstracts/abstract-wc-email.php:734
 msgid ""
-"This template has been overridden by your theme and can be found in: "
-"<code>%s</code>."
-msgstr "Acest șablon a fost înlocuit de tema dvs. și poate fi găsit la în: <code>%s</code>."
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
+msgstr ""
+"Acest șablon a fost înlocuit de tema dvs. și poate fi găsit la în: <code>%s</"
+"code>."
 
 #: includes/abstracts/abstract-wc-email.php:749
 msgid "Copy file to theme"
@@ -3054,7 +3029,9 @@ msgstr "Copiază fișierul în directorul temei curente"
 msgid ""
 "To override and edit this email template copy <code>%s</code> to your theme "
 "folder: <code>%s</code>."
-msgstr "Pentru a înlocui şi edita acest şablon de e-mail, copiază <code>%s</code> în directorul: <code>%s</code> din interiorul temei active."
+msgstr ""
+"Pentru a înlocui şi edita acest şablon de e-mail, copiază <code>%s</code> în "
+"directorul: <code>%s</code> din interiorul temei active."
 
 #: includes/abstracts/abstract-wc-email.php:763
 msgid "File was not found."
@@ -3339,7 +3316,8 @@ msgstr "Nu aveți drepturi pentru a accesa această pagină."
 #: includes/class-wc-ajax.php:272 includes/class-wc-ajax.php:299
 #: includes/class-wc-ajax.php:316
 msgid "You have taken too long. Please go back and retry."
-msgstr "A durat prea mult timp. Vă rugăm să vă întoarceți și să încercați din nou."
+msgstr ""
+"A durat prea mult timp. Vă rugăm să vă întoarceți și să încercați din nou."
 
 #: includes/class-wc-ajax.php:529
 msgid "Same as parent"
@@ -3363,7 +3341,9 @@ msgstr "Stocul articolului #%s a fost redus de la %s la %s."
 msgid ""
 "No products had their stock reduced - they may not have stock management "
 "enabled."
-msgstr "Nu a fost redus stocul niciunui produs - este posibil să nu aibă opțiunea de gestionare a stocurilor activată "
+msgstr ""
+"Nu a fost redus stocul niciunui produs - este posibil să nu aibă opțiunea de "
+"gestionare a stocurilor activată "
 
 #: includes/class-wc-ajax.php:1026 includes/class-wc-ajax.php:1027
 msgid "Item #%s stock increased from %s to %s."
@@ -3373,7 +3353,9 @@ msgstr "Stocul articolului #%s a fost crescut de la %s la %s."
 msgid ""
 "No products had their stock increased - they may not have stock management "
 "enabled."
-msgstr "Nu a fost crescut stocul niciunui produs - este posibil să nu aibă opțiunea de gestionare a stocurilor activată "
+msgstr ""
+"Nu a fost crescut stocul niciunui produs - este posibil să nu aibă opțiunea "
+"de gestionare a stocurilor activată "
 
 #: includes/class-wc-ajax.php:1050
 #: includes/widgets/class-wc-widget-product-categories.php:39
@@ -3398,13 +3380,19 @@ msgid ""
 "In order for <strong>database caching</strong> to work with WooCommerce you "
 "must add <code>_wc_session_</code> to the \"Ignored Query Strings\" option "
 "in W3 Total Cache settings <a href=\"%s\">here</a>."
-msgstr "Pentru ca <strong> cache-ul  bazei de date </ strong> să lucreze cu WooCommerce trebuie să adăugați <code> _wc_session_ </ code> la opțiunea  \" Interogări ignorate ( Ignored Query Strings ) \" în setările W3 Total Cache <a href = \"% s\"> aici </ a>."
+msgstr ""
+"Pentru ca <strong> cache-ul  bazei de date </ strong> să lucreze cu "
+"WooCommerce trebuie să adăugați <code> _wc_session_ </ code> la opțiunea  \" "
+"Interogări ignorate ( Ignored Query Strings ) \" în setările W3 Total Cache "
+"<a href = \"% s\"> aici </ a>."
 
 #: includes/class-wc-cart.php:163
 msgid ""
 "%s has been removed from your cart because it can no longer be purchased. "
 "Please contact us if you need assistance."
-msgstr "%s a fost eliminat din coșul dvs., deoarece acesta nu mai poate fi achiziționat. Vă rugăm să ne contactați dacă aveți nevoie de ajutor."
+msgstr ""
+"%s a fost eliminat din coșul dvs., deoarece acesta nu mai poate fi "
+"achiziționat. Vă rugăm să ne contactați dacă aveți nevoie de ajutor."
 
 #: includes/class-wc-cart.php:358
 msgid "An item which is no longer available was removed from your cart."
@@ -3416,36 +3404,50 @@ msgid ""
 "Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in "
 "stock). Please edit your cart and try again. We apologise for any "
 "inconvenience caused."
-msgstr "Ne pare rău însă nu avem suficiente produse \"%s\" în stoc pentru a vă onora comanda. Doar %s produse sunt în stoc. Vă rugăm editați Coșul de Cumpărături și încercați din nou. Ne pare rău pentru orice neplăcere creată."
+msgstr ""
+"Ne pare rău însă nu avem suficiente produse \"%s\" în stoc pentru a vă onora "
+"comanda. Doar %s produse sunt în stoc. Vă rugăm editați Coșul de Cumpărături "
+"și încercați din nou. Ne pare rău pentru orice neplăcere creată."
 
 #: includes/class-wc-cart.php:455
 msgid ""
 "Sorry, we do not have enough \"%s\" in stock to fulfill your order right "
 "now. Please try again in %d minutes or edit your cart and try again. We "
 "apologise for any inconvenience caused."
-msgstr "Ne pare rău însă nu avem suficient din produsul \"%s\" în stoc pentru a vă onora comanda. Doar %s produse sunt în stoc. Vă rugăm editați Coșul de Cumpărături și încercați din nou. Ne pare rău pentru orice neplăcere creată."
+msgstr ""
+"Ne pare rău însă nu avem suficient din produsul \"%s\" în stoc pentru a vă "
+"onora comanda. Doar %s produse sunt în stoc. Vă rugăm editați Coșul de "
+"Cumpărături și încercați din nou. Ne pare rău pentru orice neplăcere creată."
 
 #: includes/class-wc-cart.php:465
 msgid ""
 "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We "
 "apologise for any inconvenience caused."
-msgstr "Ne pare rău, însă produsul \"%s\" nu este în stoc. Vă rugăm să modificați Coșul de Cumpărături și să încercați din nou. Ne pare rău pentru orice neplăcere creată. "
+msgstr ""
+"Ne pare rău, însă produsul \"%s\" nu este în stoc. Vă rugăm să modificați "
+"Coșul de Cumpărături și să încercați din nou. Ne pare rău pentru orice "
+"neplăcere creată. "
 
 #: includes/class-wc-cart.php:787
 msgid "Sorry, &quot;%s&quot; cannot be purchased."
-msgstr "Ne pare rău dar acest produs ( &quot;%s&quot; ) nu poate fi achiziționat."
+msgstr ""
+"Ne pare rău dar acest produs ( &quot;%s&quot; ) nu poate fi achiziționat."
 
 #: includes/class-wc-cart.php:794
 msgid ""
 "You cannot add &quot;%s&quot; to the cart because the product is out of "
 "stock."
-msgstr "Nu puteți adăuga acest produs (&quot;%s&quot; ) în Coșul dvs., deoarece produsul nu mai este în stoc."
+msgstr ""
+"Nu puteți adăuga acest produs (&quot;%s&quot; ) în Coșul dvs., deoarece "
+"produsul nu mai este în stoc."
 
 #: includes/class-wc-cart.php:799
 msgid ""
 "You cannot add that amount of &quot;%s&quot; to the cart because there is "
 "not enough stock (%s remaining)."
-msgstr "Numărul de &quot;%s&quot; introdus nu poate fi adăugat în Coș, deoarce mai avem doar %s produse în stoc."
+msgstr ""
+"Numărul de &quot;%s&quot; introdus nu poate fi adăugat în Coș, deoarce mai "
+"avem doar %s produse în stoc."
 
 #: includes/class-wc-cart.php:813 includes/class-wc-cart.php:832
 #: includes/class-wc-cart.php:845 includes/class-wc-frontend-scripts.php:151
@@ -3513,9 +3515,11 @@ msgstr "Pus pe lista de așteptare"
 
 #: includes/class-wc-checkout.php:409
 msgid ""
-"Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return"
-" to homepage</a>"
-msgstr "Ne pare rău, sesiunea a expirat.<a href=\"%s\" class=\"wc-backward\">Reveniti la pagina de start</a>"
+"Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return "
+"to homepage</a>"
+msgstr ""
+"Ne pare rău, sesiunea a expirat.<a href=\"%s\" class=\"wc-backward"
+"\">Reveniti la pagina de start</a>"
 
 #: includes/class-wc-checkout.php:484 includes/class-wc-form-handler.php:88
 msgid "is a required field."
@@ -3546,7 +3550,9 @@ msgstr "Trebuie să acceptați Termenii și Condițiile noastre."
 msgid ""
 "Unfortunately <strong>we do not ship to %s</strong>. Please enter an "
 "alternative shipping address."
-msgstr "Din păcate, <strong>noi nu livrăm la %s</ strong>. Va rugăm să introduceti o adresa de livrare alternativă."
+msgstr ""
+"Din păcate, <strong>noi nu livrăm la %s</ strong>. Va rugăm să introduceti o "
+"adresa de livrare alternativă."
 
 #: includes/class-wc-checkout.php:584
 msgid "Invalid shipping method."
@@ -3558,7 +3564,8 @@ msgstr "Metodă de plată necorespunzătoare."
 
 #: includes/class-wc-comments.php:110
 msgid "You have taken too long. Please go back and refresh the page."
-msgstr "A durat prea mult timp. Vă rugăm să vă întoarceți și să reîncărcați pagina."
+msgstr ""
+"A durat prea mult timp. Vă rugăm să vă întoarceți și să reîncărcați pagina."
 
 #: includes/class-wc-comments.php:113
 msgid "Please rate the product."
@@ -4608,7 +4615,7 @@ msgstr "Oraș"
 
 #: includes/class-wc-countries.php:756 includes/class-wc-countries.php:757
 msgid "State / County"
-msgstr "Stat / Județ"
+msgstr "Sector / Județ"
 
 #: includes/class-wc-countries.php:763 includes/class-wc-countries.php:764
 #: templates/cart/shipping-calculator.php:80
@@ -4683,13 +4690,15 @@ msgstr "Codul Promoțional nu există!"
 msgid ""
 "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
 "your order."
-msgstr "Ne pare rău, cuponul \"%s\" este invalid - a fost eliminat din comanda dvs."
+msgstr ""
+"Ne pare rău, cuponul \"%s\" este invalid - a fost eliminat din comanda dvs."
 
 #: includes/class-wc-coupon.php:601
 msgid ""
 "Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
 "from your order."
-msgstr "Ne pare rău, cuponul \"%s\" nu vă aparține - a fost eliminat din comanda dvs."
+msgstr ""
+"Ne pare rău, cuponul \"%s\" nu vă aparține - a fost eliminat din comanda dvs."
 
 #: includes/class-wc-coupon.php:604
 msgid "Coupon code already applied!"
@@ -4699,7 +4708,9 @@ msgstr "Codul Promoțional a fost deja aplicat!"
 msgid ""
 "Sorry, coupon \"%s\" has already been applied and cannot be used in "
 "conjunction with other coupons."
-msgstr "Ne pare rău, dar cuponul \"%s\" a fost deja folosit și nu poate fi folosit împreună cu alte cupoane"
+msgstr ""
+"Ne pare rău, dar cuponul \"%s\" a fost deja folosit și nu poate fi folosit "
+"împreună cu alte cupoane"
 
 #: includes/class-wc-coupon.php:610
 msgid "Coupon usage limit has been reached."
@@ -4715,7 +4726,9 @@ msgstr "Valoarea minimă a facturii pentru a utiliza acest cupon este de %s."
 
 #: includes/class-wc-coupon.php:619
 msgid "Sorry, this coupon is not applicable to your cart contents."
-msgstr "Ne pare rău dar acest cupon nu se aplică pentru produsele aflate în Coș în momentul de față."
+msgstr ""
+"Ne pare rău dar acest cupon nu se aplică pentru produsele aflate în Coș în "
+"momentul de față."
 
 #: includes/class-wc-coupon.php:622
 msgid "Sorry, this coupon is not valid for sale items."
@@ -4888,7 +4901,9 @@ msgstr "Comanda dvs. a fost anulată."
 msgid ""
 "Your order can no longer be cancelled. Please contact us if you need "
 "assistance."
-msgstr "Comanda dvs. nu mai poate fi anulată. Vă rugăm să ne contactați dacă aveți nevoie de ajutor."
+msgstr ""
+"Comanda dvs. nu mai poate fi anulată. Vă rugăm să ne contactați dacă aveți "
+"nevoie de ajutor."
 
 #: includes/class-wc-form-handler.php:557
 #: includes/class-wc-form-handler.php:617
@@ -4898,7 +4913,9 @@ msgstr "Vă rugăm selectați opțiunile produsului &hellip;"
 #: includes/class-wc-form-handler.php:651
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
-msgstr "Vă rugăm să alegeţi cantitatea de produse pe care doriți să le adăugați în coş&hellip;"
+msgstr ""
+"Vă rugăm să alegeţi cantitatea de produse pe care doriți să le adăugați în "
+"coş&hellip;"
 
 #: includes/class-wc-form-handler.php:658
 msgid "Please choose a product to add to your cart&hellip;"
@@ -4922,7 +4939,9 @@ msgstr "Parola este necesară."
 
 #: includes/class-wc-form-handler.php:735
 msgid "A user could not be found with this email address."
-msgstr "Nu a fost găsit nici un cont de utilizator înregistrat cu această adresă de e-mail."
+msgstr ""
+"Nu a fost găsit nici un cont de utilizator înregistrat cu această adresă de "
+"e-mail."
 
 #: includes/class-wc-form-handler.php:760
 msgid "You are now logged in as <strong>%s</strong>"
@@ -4962,7 +4981,9 @@ msgstr "obligatoriu"
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
-msgstr "Ne pare rău, dar nu avem produse care sa corespundă criteriilor dvs. Vă rugăm încercați o altă combinație."
+msgstr ""
+"Ne pare rău, dar nu avem produse care sa corespundă criteriilor dvs. Vă "
+"rugăm încercați o altă combinație."
 
 #: includes/class-wc-frontend-scripts.php:159
 msgid ""
@@ -5000,7 +5021,7 @@ msgstr ""
 
 #: includes/class-wc-install.php:228 templates/cart/mini-cart.php:65
 msgid "Checkout"
-msgstr "Plasează Comanda"
+msgstr "Finalizare Comandă"
 
 #: includes/class-wc-install.php:232
 msgctxt "page_slug"
@@ -5432,7 +5453,8 @@ msgstr "Părinte Cupon"
 #: includes/class-wc-post-types.php:338
 msgid ""
 "This is where you can add new coupons that customers can use in your store."
-msgstr "De aici se pot adăuga cupoane ce pot fi utilizate de clienții magazinului."
+msgstr ""
+"De aici se pot adăuga cupoane ce pot fi utilizate de clienții magazinului."
 
 #: includes/class-wc-product-external.php:86
 msgid "Buy product"
@@ -5462,7 +5484,9 @@ msgstr "Selectează opțiuni"
 msgid ""
 "This variable product has no active variations so cannot be published. "
 "Changing status to draft."
-msgstr "Acest produs variabil nu are variații active, implicit nu poate fi publicat. Statusul a fost schimbat in ciorna."
+msgstr ""
+"Acest produs variabil nu are variații active, implicit nu poate fi publicat. "
+"Statusul a fost schimbat in ciorna."
 
 #: includes/class-wc-product-variation.php:494
 msgid "%s &ndash; %s%s"
@@ -5482,7 +5506,10 @@ msgstr "Comandă finalizată"
 msgid ""
 "Order complete emails are sent to the customer when the order is marked "
 "complete and usual indicates that the order has been shipped."
-msgstr "E-mailuri pentru \"Comandă completă\" sunt trimise către client atunci când comanda este marcată ca completă și de obicei înseamnă că articolele din comandă au fost expediate."
+msgstr ""
+"E-mailuri pentru \"Comandă completă\" sunt trimise către client atunci când "
+"comanda este marcată ca completă și de obicei înseamnă că articolele din "
+"comandă au fost expediate."
 
 #: includes/emails/class-wc-email-customer-completed-order.php:29
 msgid "Your order is complete"
@@ -5527,7 +5554,9 @@ msgstr "Factură Client"
 msgid ""
 "Customer invoice emails can be sent to the user containing order info and "
 "payment links."
-msgstr "Trimite factura clientului via email. Acest email va include detaliile comenzii și un link către pagina de plată a facturii."
+msgstr ""
+"Trimite factura clientului via email. Acest email va include detaliile "
+"comenzii și un link către pagina de plată a facturii."
 
 #: includes/emails/class-wc-email-customer-invoice.php:35
 msgid "Invoice for order {order_number} from {order_date}"
@@ -5561,7 +5590,9 @@ msgstr "Cont Nou"
 msgid ""
 "Customer new account emails are sent when a customer signs up via the "
 "checkout or My Account page."
-msgstr "Emailurile pentru Client Nou - sunt trimise atunci când un client se înregistrează în Pagina Finalizare Comandă sau Pagina Contul Meu"
+msgstr ""
+"Emailurile pentru Client Nou - sunt trimise atunci când un client se "
+"înregistrează în Pagina Finalizare Comandă sau Pagina Contul Meu"
 
 #: includes/emails/class-wc-email-customer-new-account.php:39
 msgid "Your account on {site_title}"
@@ -5577,7 +5608,9 @@ msgstr "Mențiune Client"
 
 #: includes/emails/class-wc-email-customer-note.php:32
 msgid "Customer note emails are sent when you add a note to an order."
-msgstr "Emailurile pentru Notițe Client - sunt trimise atunci când adaugi o notită la o comandă"
+msgstr ""
+"Emailurile pentru Notițe Client - sunt trimise atunci când adaugi o notită "
+"la o comandă"
 
 #: includes/emails/class-wc-email-customer-note.php:37
 msgid "Note added to your {site_title} order from {order_date}"
@@ -5595,7 +5628,9 @@ msgstr "Comanda în curs de procesare"
 msgid ""
 "This is an order notification sent to the customer after payment containing "
 "order details."
-msgstr "Aceasta este o notificare care este trimisă la client după efectuarea plății. Această notificare conține detaliile comenzii."
+msgstr ""
+"Aceasta este o notificare care este trimisă la client după efectuarea "
+"plății. Această notificare conține detaliile comenzii."
 
 #: includes/emails/class-wc-email-customer-processing-order.php:29
 msgid "Thank you for your order"
@@ -5613,7 +5648,9 @@ msgstr "Resetează parola"
 msgid ""
 "Customer reset password emails are sent when a customer resets their "
 "password."
-msgstr "Emailurile pentru Resetare Parole sunt trimise atunci când un client își resetează parola."
+msgstr ""
+"Emailurile pentru Resetare Parole sunt trimise atunci când un client își "
+"resetează parola."
 
 #: includes/emails/class-wc-email-customer-reset-password.php:44
 msgid "Password Reset for {site_title}"
@@ -5645,21 +5682,27 @@ msgstr "Destinatar(i)"
 
 #: includes/emails/class-wc-email-new-order.php:128
 msgid ""
-"Enter recipients (comma separated) for this email. Defaults to "
-"<code>%s</code>."
-msgstr "Introduceți desitanatarii (separați prin virgulă). Implicit către <code>%s</code>."
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Introduceți desitanatarii (separați prin virgulă). Implicit către <code>%s</"
+"code>."
 
 #: includes/emails/class-wc-email-new-order.php:135
 msgid ""
 "This controls the email subject line. Leave blank to use the default "
 "subject: <code>%s</code>."
-msgstr "Această setare controlează Subiectul Emailului.Lasă cîmpul gol pentru a utiliza forma setată implicit: <code>%s</code>."
+msgstr ""
+"Această setare controlează Subiectul Emailului.Lasă cîmpul gol pentru a "
+"utiliza forma setată implicit: <code>%s</code>."
 
 #: includes/emails/class-wc-email-new-order.php:142
 msgid ""
 "This controls the main heading contained within the email notification. "
 "Leave blank to use the default heading: <code>%s</code>."
-msgstr "Aceasta controlează Antetul principal conținut în notificările prin email. Lăsaţi liber pentru a utiliza Antetul implicit: <code>%s</code>."
+msgstr ""
+"Aceasta controlează Antetul principal conținut în notificările prin email. "
+"Lăsaţi liber pentru a utiliza Antetul implicit: <code>%s</code>."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:25
 msgid "BACS"
@@ -5705,7 +5748,9 @@ msgstr "Titlu"
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:104
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:83
 msgid "This controls the title which the user sees during checkout."
-msgstr "Această opțiune controlează titlul pe care utilizatorul îl vede în timpul procesării comenzii."
+msgstr ""
+"Această opțiune controlează titlul pe care utilizatorul îl vede în timpul "
+"procesării comenzii."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:75
 msgid "Direct Bank Transfer"
@@ -5723,8 +5768,7 @@ msgstr "Descriere"
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:81
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:67
 #: includes/gateways/cod/class-wc-gateway-cod.php:66
-msgid ""
-"Payment method description that the customer will see on your checkout."
+msgid "Payment method description that the customer will see on your checkout."
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:82
@@ -5802,10 +5846,14 @@ msgstr "CEC"
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:26
 msgid ""
-"Allows cheque payments. Why would you take cheques in this day and age? Well"
-" you probably wouldn't but it does allow you to make test purchases for "
+"Allows cheque payments. Why would you take cheques in this day and age? Well "
+"you probably wouldn't but it does allow you to make test purchases for "
 "testing order emails and the 'success' pages etc."
-msgstr "Permite efectuarea de plăți prin cec-uri. De ce ați accepta plata prin cec-uri în ziua de astăzi?! Probabil nu ai accepta, însă această opțiune îți permite să faci teste de cumpărare a unui produs și să verifici redirecționările către restul paginilor după plasarea unei comenzi."
+msgstr ""
+"Permite efectuarea de plăți prin cec-uri. De ce ați accepta plata prin cec-"
+"uri în ziua de astăzi?! Probabil nu ai accepta, însă această opțiune îți "
+"permite să faci teste de cumpărare a unui produs și să verifici "
+"redirecționările către restul paginilor după plasarea unei comenzi."
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:54
 msgid "Enable Cheque Payment"
@@ -5817,9 +5865,11 @@ msgstr "Cec de plată"
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:68
 msgid ""
-"Please send your cheque to Store Name, Store Street, Store Town, Store State"
-" / County, Store Postcode."
-msgstr "Vă rugăm să trimiteți cecu-ul dvs. către Nume Magazin, strada Magazin, oraș Magazin, județ Magazin, cod poștal Magazin"
+"Please send your cheque to Store Name, Store Street, Store Town, Store "
+"State / County, Store Postcode."
+msgstr ""
+"Vă rugăm să trimiteți cecu-ul dvs. către Nume Magazin, strada Magazin, oraș "
+"Magazin, județ Magazin, cod poștal Magazin"
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:115
 msgid "Awaiting cheque payment"
@@ -5861,9 +5911,12 @@ msgstr "Activează pentru Metodele de Livrare"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:90
 msgid ""
-"If COD is only available for certain methods, set it up here. Leave blank to"
-" enable for all methods."
-msgstr "Dacă această metodă (Plată Ramburs) este disponilbilă numai pentru anumite metode de livrare, introduceţi-le aici. Lăsaţi gol pentru a activa pentru toate metodele."
+"If COD is only available for certain methods, set it up here. Leave blank to "
+"enable for all methods."
+msgstr ""
+"Dacă această metodă (Plată Ramburs) este disponilbilă numai pentru anumite "
+"metode de livrare, introduceţi-le aici. Lăsaţi gol pentru a activa pentru "
+"toate metodele."
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:94
 msgid "Select shipping methods"
@@ -5893,7 +5946,9 @@ msgstr "Cheie de Acces"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:137
 msgid "The Mijireh access key for your store."
-msgstr "Cheia de acces a procesatorului de plăți online Mijireh, validă pentru magazinul tău."
+msgstr ""
+"Cheia de acces a procesatorului de plăți online Mijireh, validă pentru "
+"magazinul tău."
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:145
 msgid "Credit Card"
@@ -5906,7 +5961,9 @@ msgstr "Plătește în siguranță folosind cardul tău de credit."
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:152
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:141
 msgid "This controls the description which the user sees during checkout."
-msgstr "Aceasta opțiune controlează ceea ce utilizator va vedea în timpul plasării comenzii."
+msgstr ""
+"Aceasta opțiune controlează ceea ce utilizator va vedea în timpul plasării "
+"comenzii."
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:171
 msgid "Get started with Mijireh Checkout"
@@ -5915,10 +5972,14 @@ msgstr "Începe colaborarea cu procesatorul de plăți Mijireh"
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:172
 msgid ""
 "provides a fully PCI Compliant, secure way to collect and transmit credit "
-"card data to your payment gateway while keeping you in control of the design"
-" of your site. Mijireh supports a wide variety of payment gateways: Stripe, "
+"card data to your payment gateway while keeping you in control of the design "
+"of your site. Mijireh supports a wide variety of payment gateways: Stripe, "
 "Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, and more."
-msgstr "oferă o metodă sigură și atestată de a colecta și transmite date de credit card către portalul de plată în timp ce tu controlezi design-ul site-ului. Mijireh suportă o varietate largă de gateway-uri de plată: Stripe, Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap precum și alții"
+msgstr ""
+"oferă o metodă sigură și atestată de a colecta și transmite date de credit "
+"card către portalul de plată în timp ce tu controlezi design-ul site-ului. "
+"Mijireh suportă o varietate largă de gateway-uri de plată: Stripe, Authorize."
+"net, PayPal, eWay, SagePay, Braintree, PayLeap precum și alții"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:174
 msgid "Join for free"
@@ -5926,14 +5987,18 @@ msgstr "Înscrie-te Gratuit!"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:174
 msgid "Learn more about WooCommerce and Mijireh"
-msgstr "Află mai multe detalii despre WooCommerce și Procesatorul de plăți online Mijireh"
+msgstr ""
+"Află mai multe detalii despre WooCommerce și Procesatorul de plăți online "
+"Mijireh"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:178
 msgid ""
 "provides a fully PCI Compliant, secure way to collect and transmit credit "
-"card data to your payment gateway while keeping you in control of the design"
-" of your site."
-msgstr "oferă o metodă sigură și atestată de a colecta și transmite date de credit card către portalul de plată în timp ce tu controlezi design-ul site-ului."
+"card data to your payment gateway while keeping you in control of the design "
+"of your site."
+msgstr ""
+"oferă o metodă sigură și atestată de a colecta și transmite date de credit "
+"card către portalul de plată în timp ce tu controlezi design-ul site-ului."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:31
 msgid "Proceed to PayPal"
@@ -5952,7 +6017,9 @@ msgstr "PayPal standard"
 msgid ""
 "PayPal standard works by sending the user to PayPal to enter their payment "
 "information."
-msgstr "Modulul <strong>PayPal Standard</strong> redirecționează clientul către site-ul PayPal pentru a introduce informațiile necesare efectuării plății."
+msgstr ""
+"Modulul <strong>PayPal Standard</strong> redirecționează clientul către site-"
+"ul PayPal pentru a introduce informațiile necesare efectuării plății."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:111
 msgid "Gateway Disabled"
@@ -5968,9 +6035,11 @@ msgstr "Activează PayPal standard"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:142
 msgid ""
-"Pay via PayPal; you can pay with your credit card if you don't have a PayPal"
-" account"
-msgstr "Plătește prin PayPal. Poți plăti cu cardul de credit chiar dacă nu ai cont de PayPal"
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account"
+msgstr ""
+"Plătește prin PayPal. Poți plăti cu cardul de credit chiar dacă nu ai cont "
+"de PayPal"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:145
 msgid "PayPal Email"
@@ -5980,7 +6049,10 @@ msgstr "Adresa contului de PayPal"
 msgid ""
 "Please enter your PayPal email address; this is needed in order to take "
 "payment."
-msgstr "Adresa de email cu care a fost creat contul de PayPal; Această adresă de email este necesară pentru ca plățile să fie procesate direct în contul tău de PayPal."
+msgstr ""
+"Adresa de email cu care a fost creat contul de PayPal; Această adresă de "
+"email este necesară pentru ca plățile să fie procesate direct în contul tău "
+"de PayPal."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:153
 msgid "Receiver Email"
@@ -5988,9 +6060,12 @@ msgstr "Adresa la care se vor primi emailurile"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:155
 msgid ""
-"If this differs from the email entered above, input your main receiver email"
-" for your PayPal account. This is used to validate IPN requests."
-msgstr "Dacă aceasta diferă de adresa de email introdusă mai sus, introduce-ți adresa email principală a contului dvs. de PayPal. Aceasta este folosită pentru a validat request-urile IPN."
+"If this differs from the email entered above, input your main receiver email "
+"for your PayPal account. This is used to validate IPN requests."
+msgstr ""
+"Dacă aceasta diferă de adresa de email introdusă mai sus, introduce-ți "
+"adresa email principală a contului dvs. de PayPal. Aceasta este folosită "
+"pentru a validat request-urile IPN."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:161
 msgid "PayPal Identity Token"
@@ -6017,7 +6092,11 @@ msgid ""
 "Please enter a prefix for your invoice numbers. If you use your PayPal "
 "account for multiple stores ensure this prefix is unique as PayPal will not "
 "allow orders with the same invoice number."
-msgstr "Vă rugăm să introduceți un prefix pentru numerele de facturi. Dacă utilizați contul dvs. de PayPal pentru mai multe magazine, asigurați-vă că acest prefix este unic, deoarece PayPal nu va permite comenzi cu același număr al facturii."
+msgstr ""
+"Vă rugăm să introduceți un prefix pentru numerele de facturi. Dacă utilizați "
+"contul dvs. de PayPal pentru mai multe magazine, asigurați-vă că acest "
+"prefix este unic, deoarece PayPal nu va permite comenzi cu același număr al "
+"facturii."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:176
 msgid "Payment Action"
@@ -6049,7 +6128,10 @@ msgstr "Utilizează metoda de execuție prin formular"
 msgid ""
 "Enable this to post order data to PayPal via a form instead of using a "
 "redirect/querystring."
-msgstr "Activează această opțiune pentru a trimite datele către PayPal prin intermediul unui formular în loc de a folosi o metodă de redirecționare sau a unui șir de interogare."
+msgstr ""
+"Activează această opțiune pentru a trimite datele către PayPal prin "
+"intermediul unui formular în loc de a folosi o metodă de redirecționare sau "
+"a unui șir de interogare."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:194
 msgid "Page Style"
@@ -6059,7 +6141,9 @@ msgstr "Stil pagină"
 msgid ""
 "Optionally enter the name of the page style you wish to use. These are "
 "defined within your PayPal account."
-msgstr "Opțional, introduceți numele paginii pe care doriți să o folosiți ca șablon. Aceste tipuri de pagină sunt definite în contul dvs. PayPal."
+msgstr ""
+"Opțional, introduceți numele paginii pe care doriți să o folosiți ca șablon. "
+"Aceste tipuri de pagină sunt definite în contul dvs. PayPal."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:202
 msgid "Shipping options"
@@ -6077,7 +6161,10 @@ msgstr "În locul informațiilor de facturare, trimite informațiile de livrare.
 msgid ""
 "PayPal allows us to send 1 address. If you are using PayPal for shipping "
 "labels you may prefer to send the shipping address rather than billing."
-msgstr "PayPal ne permite să trimitem către serverele o singură adresă. Dacă folosești PayPal pentru a tipări Adresele de Livrare, ar fi indicat să trimiți Adresa de Livrare în locul Adresei de Facturare."
+msgstr ""
+"PayPal ne permite să trimitem către serverele o singură adresă. Dacă "
+"folosești PayPal pentru a tipări Adresele de Livrare, ar fi indicat să "
+"trimiți Adresa de Livrare în locul Adresei de Facturare."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:214
 msgid "Address override"
@@ -6087,13 +6174,16 @@ msgstr "Suprascrie Adresa"
 msgid ""
 "Enable \"address_override\" to prevent address information from being "
 "changed."
-msgstr "Activează \"suprascriere_adresa\" pentru a preveni modificarea informației."
+msgstr ""
+"Activează \"suprascriere_adresa\" pentru a preveni modificarea informației."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:217
 msgid ""
 "PayPal verifies addresses therefore this setting can cause errors (we "
 "recommend keeping it disabled)."
-msgstr "PayPal verifică adresele, de aceea aceasă setare poate cauza erori, recomandăm să o păstrați dezactivată."
+msgstr ""
+"PayPal verifică adresele, de aceea aceasă setare poate cauza erori, "
+"recomandăm să o păstrați dezactivată."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:221
 msgid "Gateway Testing"
@@ -6109,9 +6199,12 @@ msgstr "Activează Modul de Testare pentru PayPal"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:230
 msgid ""
-"PayPal sandbox can be used to test payments. Sign up for a developer account"
-" <a href=\"%s\">here</a>."
-msgstr "Modul de Testare PayPal poate fi utilizat pentru verificarea stării de funcționare a magazinului. Pentru a putea utiliza acest mod trebuie să vă înregistrați creați un cont dezvoltator <a href=\"%s\">de aici</a>."
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">here</a>."
+msgstr ""
+"Modul de Testare PayPal poate fi utilizat pentru verificarea stării de "
+"funcționare a magazinului. Pentru a putea utiliza acest mod trebuie să vă "
+"înregistrați creați un cont dezvoltator <a href=\"%s\">de aici</a>."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:233
 msgid "Debug Log"
@@ -6123,9 +6216,11 @@ msgstr "Activează înregistrarea informațiilor"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:237
 msgid ""
-"Log PayPal events, such as IPN requests, inside "
-"<code>woocommerce/logs/paypal-%s.txt</code>"
-msgstr "Înregistrare conexiunile către serverele PayPal, cum ar fi solicitările IPN, în fișierul <code>woocommerce/logs/paypal-%s.txt</code>"
+"Log PayPal events, such as IPN requests, inside <code>woocommerce/logs/"
+"paypal-%s.txt</code>"
+msgstr ""
+"Înregistrare conexiunile către serverele PayPal, cum ar fi solicitările IPN, "
+"în fișierul <code>woocommerce/logs/paypal-%s.txt</code>"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:349
 msgid "Order %s"
@@ -6140,7 +6235,9 @@ msgstr "Livrare prin"
 msgid ""
 "Thank you for your order. We are now redirecting you to PayPal to make "
 "payment."
-msgstr "Vă mulțumim pentru comanda dvs. Vă vom redirecționa către site-ul PayPal pentru a efectua plata comenzii."
+msgstr ""
+"Vă mulțumim pentru comanda dvs. Vă vom redirecționa către site-ul PayPal "
+"pentru a efectua plata comenzii."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:479
 msgid "Pay via PayPal"
@@ -6167,7 +6264,9 @@ msgstr "Eroare în timpul Validării: Sumele PayPal nu se potrivesc (brut %s )."
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:711
 msgid ""
 "Validation error: PayPal IPN response from a different email address (%s)."
-msgstr "Eroare în timpul Validării: Răspunul PayPal IPN este de la o adresă de email diferită (%s)."
+msgstr ""
+"Eroare în timpul Validării: Răspunul PayPal IPN este de la o adresă de email "
+"diferită (%s)."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:734
 msgid "IPN payment completed"
@@ -6189,7 +6288,9 @@ msgstr "Comandă rambursată / inversată"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:764
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
-msgstr "Comanda %s a fost marcată ca rambursată - Codul motivului invocat de PayPal: %s"
+msgstr ""
+"Comanda %s a fost marcată ca rambursată - Codul motivului invocat de PayPal: "
+"%s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:767
 msgid "Payment for order %s refunded/reversed"
@@ -6237,7 +6338,8 @@ msgstr "Cost Fix"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:27
 msgid "Flat rates let you define a standard rate per item, or per order."
-msgstr "Cost Fix îți permite să definești o rată standard pentru articol sau comandă."
+msgstr ""
+"Cost Fix îți permite să definești o rată standard pentru articol sau comandă."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:77
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:51
@@ -6310,9 +6412,9 @@ msgstr "Taxe Adiționale"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:128
 msgid ""
-"Optional extra shipping options with additional costs (one per line): Option"
-" Name | Additional Cost [+- Percents] | Per Cost Type (order, class, or "
-"item) Example: <code>Priority Mail | 6.95 [+ 0.2%] | order</code>."
+"Optional extra shipping options with additional costs (one per line): Option "
+"Name | Additional Cost [+- Percents] | Per Cost Type (order, class, or item) "
+"Example: <code>Priority Mail | 6.95 [+ 0.2%] | order</code>."
 msgstr ""
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:131
@@ -6329,7 +6431,9 @@ msgstr "Costuri Adiționale"
 msgid ""
 "Additional costs can be added below - these will all be added to the per-"
 "order cost above."
-msgstr "Costurile suplimentare pot fi adăugate mai jos - acestea vor fi adăugate la costul per-comanda de mai sus."
+msgstr ""
+"Costurile suplimentare pot fi adăugate mai jos - acestea vor fi adăugate la "
+"costul per-comanda de mai sus."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:139
 msgid "Costs Added..."
@@ -6360,7 +6464,9 @@ msgstr "Comision minim de prelucrare a comenzii"
 msgid ""
 "Enter a minimum fee amount. Fee's less than this will be increased. Leave "
 "blank to disable."
-msgstr "Introdu un comision minim. Comisioanele mai mici decât acesta vor fi crescute automat. Lasă câmpul gol pentru a dezactiva opțiunea."
+msgstr ""
+"Introdu un comision minim. Comisioanele mai mici decât acesta vor fi "
+"crescute automat. Lasă câmpul gol pentru a dezactiva opțiunea."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:515
 msgid "Costs"
@@ -6383,7 +6489,8 @@ msgstr "Comision de prelucrare a comenzii"
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:523
 msgid ""
 "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%."
-msgstr "Comision fără taxe. Introdu o sumă ( ex.: 2,25) sau un procent (ex.: 5%)."
+msgstr ""
+"Comision fără taxe. Introdu o sumă ( ex.: 2,25) sau un procent (ex.: 5%)."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:528
 msgid "+ Add Cost"
@@ -6455,9 +6562,10 @@ msgstr "Comandă minimă"
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:113
 msgid ""
-"Users will need to spend this amount to get free shipping (if enabled "
-"above)."
-msgstr "Pentru a beneficia de Livrare Gratuită, vizitatorii trebuie să aibă o comandă cu această valoare minimă (dacă este activată mai sus)."
+"Users will need to spend this amount to get free shipping (if enabled above)."
+msgstr ""
+"Pentru a beneficia de Livrare Gratuită, vizitatorii trebuie să aibă o "
+"comandă cu această valoare minimă (dacă este activată mai sus)."
 
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:29
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:58
@@ -6492,7 +6600,9 @@ msgstr "Cost fără taxe. Introduce-ți o valoare, ex. 2,50. Implicit este 0"
 msgid ""
 "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. "
 "Leave blank to disable."
-msgstr "Comision fără taxe. Introdu o sumă ( ex.: 2,25) sau un procent (ex.: 5%). Lasă câmpul gol pentru a dezactiva opțiunea."
+msgstr ""
+"Comision fără taxe. Introdu o sumă ( ex.: 2,25) sau un procent (ex.: 5%). "
+"Lasă câmpul gol pentru a dezactiva opțiunea."
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:25
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:105
@@ -6534,9 +6644,11 @@ msgstr "Taxă de Livrare"
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:123
 msgid ""
-"What fee do you want to charge for local delivery, disregarded if you choose"
-" free. Leave blank to disable."
-msgstr "Cât costă Livrarea Locală? (Suma introdusă este ignorată dacă se alege Gratuit). Lasă câmpul gol pentru a dezactiva."
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free. Leave blank to disable."
+msgstr ""
+"Cât costă Livrarea Locală? (Suma introdusă este ignorată dacă se alege "
+"Gratuit). Lasă câmpul gol pentru a dezactiva."
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:129
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:88
@@ -6545,9 +6657,12 @@ msgstr "Coduri Poștale"
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:131
 msgid ""
-"What zip/post codes would you like to offer delivery to? Separate codes with"
-" a comma. Accepts wildcards, e.g. P* will match a postcode of PE30."
-msgstr "Pentru ce coduri poștale oferi livrarea produselor? Separă codurile poștale cu o virgulă ( , ). Sunt aceptate metacaractere (ex P* se va potrivi cu codul poștal PE30 și PF25)"
+"What zip/post codes would you like to offer delivery to? Separate codes with "
+"a comma. Accepts wildcards, e.g. P* will match a postcode of PE30."
+msgstr ""
+"Pentru ce coduri poștale oferi livrarea produselor? Separă codurile poștale "
+"cu o virgulă ( , ). Sunt aceptate metacaractere (ex P* se va potrivi cu "
+"codul poștal PE30 și PF25)"
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:169
 msgid ""
@@ -6573,7 +6688,9 @@ msgstr ""
 msgid ""
 "Local pickup is a simple method which allows the customer to pick up their "
 "order themselves."
-msgstr "Ridicarea de la Sediu este o metodă simplă prin care clientul își ridică singur comanda."
+msgstr ""
+"Ridicarea de la Sediu este o metodă simplă prin care clientul își ridică "
+"singur comanda."
 
 #: includes/shortcodes/class-wc-shortcode-cart.php:52
 msgid "Shipping costs updated."
@@ -6619,15 +6736,20 @@ msgstr "Modalitate de Plată:"
 msgid ""
 "The order totals have been updated. Please confirm your order by pressing "
 "the Place Order button at the bottom of the page."
-msgstr "Totalul comenzii a fost actualizat. Vă rugăm confirmați comanda dvs. prin apăsarea butonului \"Plasare Comandă\" de la sfârșitul paginii."
+msgstr ""
+"Totalul comenzii a fost actualizat. Vă rugăm confirmați comanda dvs. prin "
+"apăsarea butonului \"Plasare Comandă\" de la sfârșitul paginii."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:112
 #: templates/myaccount/view-order.php:12
 msgid ""
-"Order <mark class=\"order-number\">%s</mark> was placed on <mark class"
-"=\"order-date\">%s</mark> and is currently <mark class=\"order-"
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+"Comanda <mark class=\"order-number\">%s</mark> a fost plasată pe data de "
+"<mark class=\"order-date\">%s</mark>și este in prezent <mark class=\"order-"
 "status\">%s</mark>."
-msgstr "Comanda <mark class=\"order-number\">%s</mark> a fost plasată pe data de <mark class=\"order-date\">%s</mark>și este in prezent <mark class=\"order-status\">%s</mark>."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:116
 #: templates/myaccount/view-order.php:17 templates/order/tracking.php:31
@@ -6645,7 +6767,8 @@ msgstr "Introduceți un nume de utilizator sau o adresă de email."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:242
 msgid "There is no user registered with that email address."
-msgstr "Nu există nici un cont de utilizator înregistrat cu această adresă de email."
+msgstr ""
+"Nu există nici un cont de utilizator înregistrat cu această adresă de email."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:257
 msgid "Invalid username or e-mail."
@@ -6653,7 +6776,9 @@ msgstr "Nume Utilizator sau Email Incorect."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:271
 msgid "Password reset is not allowed for this user"
-msgstr "Ne pare rău,dar din păcate, resetarea parolei nu este permisă pentru acest utilizator."
+msgstr ""
+"Ne pare rău,dar din păcate, resetarea parolei nu este permisă pentru acest "
+"utilizator."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:299
 msgid "Check your e-mail for the confirmation link."
@@ -6679,7 +6804,9 @@ msgstr "Vă rugă introduceți o adresă de email validă pentru comandă."
 
 #: includes/shortcodes/class-wc-shortcode-order-tracking.php:72
 msgid "Sorry, we could not find that order id in our database."
-msgstr "Ne pare rău dar nu găsim codul de identificare a comenzii în baza noastră de date."
+msgstr ""
+"Ne pare rău dar nu găsim codul de identificare a comenzii în baza noastră de "
+"date."
 
 #: includes/wc-cart-functions.php:25
 msgid "This product is protected and cannot be purchased."
@@ -6882,9 +7009,10 @@ msgid "Product % Discount"
 msgstr "Reducere % Produs"
 
 #: includes/wc-customer-functions.php:52
-msgid ""
-"An account is already registered with your email address. Please login."
-msgstr "Există deja un cont înregistrat cu această adresă de email. Vă rugăm să vă autentificați."
+msgid "An account is already registered with your email address. Please login."
+msgstr ""
+"Există deja un cont înregistrat cu această adresă de email. Vă rugăm să vă "
+"autentificați."
 
 #: includes/wc-customer-functions.php:61
 msgid "Please enter a valid account username."
@@ -6893,7 +7021,8 @@ msgstr "Vă rugăm introduceți un nume de utilizator valid."
 #: includes/wc-customer-functions.php:65
 msgid ""
 "An account is already registered with that username. Please choose another."
-msgstr "Există deja un cont înregistrat cu acest nume utilizator. Alegeți altul."
+msgstr ""
+"Există deja un cont înregistrat cu acest nume utilizator. Alegeți altul."
 
 #: includes/wc-customer-functions.php:85
 msgid "Please enter an account password."
@@ -6903,11 +7032,15 @@ msgstr "Vă rugăm introduceți o parolă pentru cont."
 msgid ""
 "Couldn&#8217;t register you&hellip; please contact us if you continue to "
 "have problems."
-msgstr "Nu te putem înregistra&hellip; Mai încearcă odată, nu ezita să ne contactezi dacă problemele continuă."
+msgstr ""
+"Nu te putem înregistra&hellip; Mai încearcă odată, nu ezita să ne contactezi "
+"dacă problemele continuă."
 
 #: includes/wc-order-functions.php:294
 msgid "Unpaid order cancelled - time limit reached."
-msgstr "Comenzile neachitate au fost anulate - Limita de timp în care se putea efectua plata a fost atinsă."
+msgstr ""
+"Comenzile neachitate au fost anulate - Limita de timp în care se putea "
+"efectua plata a fost atinsă."
 
 #: includes/wc-product-functions.php:236
 msgctxt "slug"
@@ -6930,7 +7063,9 @@ msgstr "Produse noi etichetate cu %s"
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
-msgstr "Acesta este un magazin demo pentru testare &mdash; nici o comandă nu va fi onorată."
+msgstr ""
+"Acesta este un magazin demo pentru testare &mdash; nici o comandă nu va fi "
+"onorată."
 
 #: includes/wc-template-functions.php:369
 msgid "Search Results: &ldquo;%s&rdquo;"
@@ -7013,7 +7148,8 @@ msgstr "Ascunde în cazul în care Coșul este gol"
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:21
 msgid "Shows active layered nav filters so users can see and deactivate them."
-msgstr "Afişează filtrele active, astfel încât utilizatorii le pot vede şi dezactiva."
+msgstr ""
+"Afişează filtrele active, astfel încât utilizatorii le pot vede şi dezactiva."
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:23
 msgid "WooCommerce Layered Nav Filters"
@@ -7037,18 +7173,13 @@ msgstr "Min"
 msgid "Max"
 msgstr "Max"
 
-<<<<<<< HEAD
-# @ woocommerce
-#: templates/loop/sale-flash.php:16 templates/single-product/sale-flash.php:16
-msgid "Sale!"
-msgstr "Ofertă!"
-=======
 #: includes/widgets/class-wc-widget-layered-nav.php:21
 msgid ""
 "Shows a custom attribute in a widget which lets you narrow down the list of "
 "products when viewing product categories."
-msgstr "Afișează un widget cu atribute ce permite filtrarea produsele atunci când este vizualizată o pagină de categorie."
->>>>>>> upstream/master
+msgstr ""
+"Afișează un widget cu atribute ce permite filtrarea produsele atunci când "
+"este vizualizată o pagină de categorie."
 
 #: includes/widgets/class-wc-widget-layered-nav.php:23
 msgid "WooCommerce Layered Nav"
@@ -7094,7 +7225,9 @@ msgstr "Orice %s"
 msgid ""
 "Shows a price filter slider in a widget which lets you narrow down the list "
 "of shown products when viewing product categories."
-msgstr "Afișează un filtru de preț într-un widget ce permite micșorarea listei de produse afișate, în funcție de minimul și maximul ales."
+msgstr ""
+"Afișează un filtru de preț într-un widget ce permite micșorarea listei de "
+"produse afișate, în funcție de minimul și maximul ales."
 
 #: includes/widgets/class-wc-widget-price-filter.php:25
 msgid "WooCommerce Price Filter"
@@ -7309,14 +7442,19 @@ msgstr "Livrare și manipulare"
 
 #: templates/cart/cart-shipping.php:55
 msgid ""
-"No shipping methods were found; please recalculate your shipping or continue"
-" to checkout and enter your full address to see if there is shipping "
+"No shipping methods were found; please recalculate your shipping or continue "
+"to checkout and enter your full address to see if there is shipping "
 "available to your location."
-msgstr "Nu au fost găsite metode de livrare, va rugam sa recalculați transportul sau să continuați către pagina de confirmare a comenzii și să introduceți adresa dvs. completă pentru a vedea dacă există modalitate de livrare disponibilă pentru locația dumneavoastră."
+msgstr ""
+"Nu au fost găsite metode de livrare, va rugam sa recalculați transportul sau "
+"să continuați către pagina de confirmare a comenzii și să introduceți adresa "
+"dvs. completă pentru a vedea dacă există modalitate de livrare disponibilă "
+"pentru locația dumneavoastră."
 
 #: templates/cart/cart-shipping.php:59
 msgid "Please fill in your details to see available shipping methods."
-msgstr "Vă rugăm introduceți datele mai sus pentru a vedea modalitățile de livrare."
+msgstr ""
+"Vă rugăm introduceți datele mai sus pentru a vedea modalitățile de livrare."
 
 #: templates/cart/cart-shipping.php:69 templates/cart/cart-shipping.php:77
 msgid "Sorry, shipping is unavailable %s."
@@ -7326,7 +7464,9 @@ msgstr "Ne pare rău, dar metoda de livrare %s este indisponibilă."
 msgid ""
 "If you require assistance or wish to make alternate arrangements please "
 "contact us."
-msgstr "Dacă aveți nevoie de ajutor sau doriți să efectuați alte aranjamente nu ezitați să ne contactați."
+msgstr ""
+"Dacă aveți nevoie de ajutor sau doriți să efectuați alte aranjamente nu "
+"ezitați să ne contactați."
 
 #: templates/cart/cart-shipping.php:93
 msgid "Shipping"
@@ -7356,9 +7496,12 @@ msgstr "(taxe estimate pentru %s)"
 
 #: templates/cart/cart-totals.php:90
 msgid ""
-"Note: Shipping and taxes are estimated%s and will be updated during checkout"
-" based on your billing and shipping information."
-msgstr "Notă: Costurile de livrare sunt estimative, %s și vor fi actualizate în timpul Finalizării Comenzii în funcție de informațiile de Facturare și Livrare."
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Notă: Costurile de livrare sunt estimative, %s și vor fi actualizate în "
+"timpul Finalizării Comenzii în funcție de informațiile de Facturare și "
+"Livrare."
 
 #: templates/cart/cart.php:29 templates/emails/admin-new-order.php:23
 #: templates/emails/customer-completed-order.php:24
@@ -7413,7 +7556,7 @@ msgstr "Calculează Costuri de Livrare"
 #: templates/cart/shipping-calculator.php:51
 #: templates/cart/shipping-calculator.php:63
 msgid "State / county"
-msgstr "Stat / Județ"
+msgstr "Sector / Județ"
 
 #: templates/cart/shipping-calculator.php:72
 msgid "City"
@@ -7427,7 +7570,10 @@ msgstr "Actualizează Totaluri"
 msgid ""
 "There are some issues with the items in your cart (shown above). Please go "
 "back to the cart page and resolve these issues before checking out."
-msgstr "Au fost semnalate câteva probleme cu produsele din coșul dvs. - Vedeți informații mai sus. Vă rugăm să vă întoarceți la pagina de Coș și să remediați aceste probleme înainte de Finaliza Comanda."
+msgstr ""
+"Au fost semnalate câteva probleme cu produsele din coșul dvs. - Vedeți "
+"informații mai sus. Vă rugăm să vă întoarceți la pagina de Coș și să "
+"remediați aceste probleme înainte de Finaliza Comanda."
 
 #: templates/checkout/cart-errors.php:20
 msgid "Return To Cart"
@@ -7452,7 +7598,9 @@ msgstr "Creați un cont?"
 msgid ""
 "Create an account by entering the information below. If you are a returning "
 "customer please login at the top of the page."
-msgstr "Creează un cont prin completarea formularului de mai jos. Dacă ai deja cont, te rugăm să te autentifici."
+msgstr ""
+"Creează un cont prin completarea formularului de mai jos. Dacă ai deja cont, "
+"te rugăm să te autentifici."
 
 #: templates/checkout/form-checkout.php:20
 msgid "You must be logged in to checkout."
@@ -7483,7 +7631,9 @@ msgid ""
 "If you have shopped with us before, please enter your details in the boxes "
 "below. If you are a new customer please proceed to the Billing &amp; "
 "Shipping section."
-msgstr "Dacă ai mai cumpărat de la noi, te rugăm să te autentifici. Dacă ești client nou, continuă la pagina de Facturare &amp; Livrare."
+msgstr ""
+"Dacă ai mai cumpărat de la noi, te rugăm să te autentifici. Dacă ești client "
+"nou, continuă la pagina de Facturare &amp; Livrare."
 
 #: templates/checkout/form-pay.php:20
 msgid "Qty"
@@ -7502,7 +7652,9 @@ msgid ""
 "Sorry, it seems that there are no available payment methods for your "
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
-msgstr "Ne pare rău dar se pare că nu există metode de acceptare a plății în locația dvs. Vă rugăm să ne contactați dacă aveți nevoie de mai multe informații."
+msgstr ""
+"Ne pare rău dar se pare că nu există metode de acceptare a plății în locația "
+"dvs. Vă rugăm să ne contactați dacă aveți nevoie de mai multe informații."
 
 #: templates/checkout/form-pay.php:89
 msgid "Pay for order"
@@ -7510,18 +7662,22 @@ msgstr "Plătește pentru comandă"
 
 #: templates/checkout/form-shipping.php:31
 msgid "Ship to a different address?"
-msgstr "Livrati la o altă adresă?"
+msgstr "Livrăm la o altă adresă?"
 
 #: templates/checkout/review-order.php:150
 msgid "Please fill in your details above to see available payment methods."
-msgstr "Vă rugăm să vă introduceți datele mai sus pentru a vedea modalitățile de plată."
+msgstr ""
+"Vă rugăm să vă introduceți datele mai sus pentru a vedea modalitățile de "
+"plată."
 
 #: templates/checkout/review-order.php:152
 msgid ""
 "Sorry, it seems that there are no available payment methods for your state. "
 "Please contact us if you require assistance or wish to make alternate "
 "arrangements."
-msgstr "Ne pare rău dar se pare că nu există metode de plată activate pentru statul dvs. Vă rugăm să ne contactați dacă aveți nevoie de mai multe informații"
+msgstr ""
+"Ne pare rău dar se pare că nu există metode de plată activate pentru statul "
+"dvs. Vă rugăm să ne contactați dacă aveți nevoie de mai multe informații"
 
 #: templates/checkout/review-order.php:161
 msgid ""
@@ -7529,7 +7685,12 @@ msgid ""
 "ensure you click the <em>Update Totals</em> button before placing your "
 "order. You may be charged more than the amount stated above if you fail to "
 "do so."
-msgstr "Având în vedere că browser-ul dvs. nu suportă JavaScript sau cel mai probabil JavaScript-ul este dezactivat, vă rugăm să apăsați butonul <em>Actualizare Totaluri</em> înainte de plasa comanda. Există riscul să vi se factureze mai mult decât ar trebui dacă uitați să apăsați butonul <em>Actualizare Totaluri</em>."
+msgstr ""
+"Având în vedere că browser-ul dvs. nu suportă JavaScript sau cel mai "
+"probabil JavaScript-ul este dezactivat, vă rugăm să apăsați butonul "
+"<em>Actualizare Totaluri</em> înainte de plasa comanda. Există riscul să vi "
+"se factureze mai mult decât ar trebui dacă uitați să apăsați butonul "
+"<em>Actualizare Totaluri</em>."
 
 #: templates/checkout/review-order.php:161
 msgid "Update totals"
@@ -7549,13 +7710,16 @@ msgstr "Termenii și Condițiile"
 
 #: templates/checkout/thankyou.php:18
 msgid ""
-"Unfortunately your order cannot be processed as the originating "
-"bank/merchant has declined your transaction."
-msgstr "Din păcate comanda dvs. nu poate fi procesată deoarece banca de origine sau comerciantul a refuzat tranzacția."
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"Din păcate comanda dvs. nu poate fi procesată deoarece banca de origine sau "
+"comerciantul a refuzat tranzacția."
 
 #: templates/checkout/thankyou.php:22
 msgid "Please attempt your purchase again or go to your account page."
-msgstr "Încercați să efectuați comanda din nou sau mergeți la pagina dvs. de cont."
+msgstr ""
+"Încercați să efectuați comanda din nou sau mergeți la pagina dvs. de cont."
 
 #: templates/checkout/thankyou.php:24
 msgid "Please attempt your purchase again."
@@ -7613,16 +7777,20 @@ msgstr "Telefon:"
 #: templates/emails/customer-completed-order.php:14
 #: templates/emails/plain/customer-completed-order.php:13
 msgid ""
-"Hi there. Your recent order on %s has been completed. Your order details are"
-" shown below for your reference:"
-msgstr "Comanda dvs. pe site-ul %s este completă. Detalii comenzii sunt afișate mai jos:"
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"Comanda dvs. pe site-ul %s este completă. Detalii comenzii sunt afișate mai "
+"jos:"
 
 #: templates/emails/customer-invoice.php:16
 #: templates/emails/plain/customer-invoice.php:14
 msgid ""
 "An order has been created for you on %s. To pay for this order please use "
 "the following link: %s"
-msgstr "O comandă a fost creeată pentru dvs. pe site-ul &ldquo; %s &rdquo;. Pentru a achita această comandă vă rugăm să urmați link-ul următor: %s"
+msgstr ""
+"O comandă a fost creeată pentru dvs. pe site-ul &ldquo; %s &rdquo;. Pentru a "
+"achita această comandă vă rugăm să urmați link-ul următor: %s"
 
 #: templates/emails/customer-invoice.php:16
 msgid "pay"
@@ -7632,7 +7800,9 @@ msgstr "plătește"
 #: templates/emails/plain/customer-new-account.php:13
 msgid ""
 "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
-msgstr "Vă mulțumim pentru creeare unui cont la magazinul %s. Numele de utilizator este: <strong> %s </strong>."
+msgstr ""
+"Vă mulțumim pentru creeare unui cont la magazinul %s. Numele de utilizator "
+"este: <strong> %s </strong>."
 
 #: templates/emails/customer-new-account.php:18
 msgid "Your password has been automatically generated: <strong>%s</strong>"
@@ -7643,7 +7813,9 @@ msgstr "Parola dvs. a fost generat automat: <strong>%s</strong>"
 msgid ""
 "You can access your account area to view your orders and change your "
 "password here: %s."
-msgstr "Puteți accesa contul dvs. pentru a vizualiza comenzile dvs. și schimba parola aici: %s."
+msgstr ""
+"Puteți accesa contul dvs. pentru a vizualiza comenzile dvs. și schimba "
+"parola aici: %s."
 
 #: templates/emails/customer-note.php:14
 #: templates/emails/plain/customer-note.php:13
@@ -7660,12 +7832,13 @@ msgstr "Detaliile despre comandă sunt afișate mai jos."
 msgid ""
 "Your order has been received and is now being processed. Your order details "
 "are shown below for your reference:"
-msgstr "Comanda dvs. a fost primită şi este în curs de procesare. Detaliile dvs. de comandă sunt prezentate mai jos pentru referinţă:"
+msgstr ""
+"Comanda dvs. a fost primită şi este în curs de procesare. Detaliile dvs. de "
+"comandă sunt prezentate mai jos pentru referinţă:"
 
 #: templates/emails/customer-reset-password.php:14
 #: templates/emails/plain/customer-reset-password.php:13
-msgid ""
-"Someone requested that the password be reset for the following account:"
+msgid "Someone requested that the password be reset for the following account:"
 msgstr "Cineva a cerut ca parola să fie resetată pentru următorul cont:"
 
 #: templates/emails/customer-reset-password.php:15
@@ -7676,7 +7849,9 @@ msgstr "Nume Utilizator: %s"
 #: templates/emails/customer-reset-password.php:16
 #: templates/emails/plain/customer-reset-password.php:16
 msgid "If this was a mistake, just ignore this email and nothing will happen."
-msgstr "În cazul în care acest lucru a fost o greșeală, pur şi simplu ignoraţi acest e-mail și nimic nu se va întâmpla."
+msgstr ""
+"În cazul în care acest lucru a fost o greșeală, pur şi simplu ignoraţi acest "
+"e-mail și nimic nu se va întâmpla."
 
 #: templates/emails/customer-reset-password.php:17
 #: templates/emails/plain/customer-reset-password.php:17
@@ -7798,7 +7973,8 @@ msgstr "Cantitate"
 
 #: templates/loop/no-products-found.php:14
 msgid "No products were found matching your selection."
-msgstr "Nu au fost găsite produse care să corespundă criteriilor selectate de dvs."
+msgstr ""
+"Nu au fost găsite produse care să corespundă criteriilor selectate de dvs."
 
 #: templates/loop/orderby.php:21
 msgid "Default sorting"
@@ -7839,14 +8015,17 @@ msgstr "Se afișează %1$d–%2$d din %3$d rezultate"
 
 #: templates/loop/sale-flash.php:16 templates/single-product/sale-flash.php:16
 msgid "Sale!"
-msgstr "Reducere!"
+msgstr "Ofertă!"
 
 #: templates/myaccount/form-add-payment-method.php:40
 msgid ""
-"Sorry, it seems that there are no payment methods which support adding a new"
-" payment method. Please contact us if you require assistance or wish to make"
-" alternate arrangements."
-msgstr "Ne pare rău, dar se pare că nu există metode de plată care să permită adăugarea unei noi metode de plată. Vă rugăm să ne contactați dacă aveți nevoie de ajutor sau doriți să faceți aranjamente alternative."
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Ne pare rău, dar se pare că nu există metode de plată care să permită "
+"adăugarea unei noi metode de plată. Vă rugăm să ne contactați dacă aveți "
+"nevoie de ajutor sau doriți să faceți aranjamente alternative."
 
 #: templates/myaccount/form-add-payment-method.php:48
 msgid "Add Payment Method"
@@ -7906,7 +8085,10 @@ msgstr "Anti-spam"
 msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
-msgstr "V-aţi uitat parola? Vă rugăm să introduceţi numele de utilizator sau adresa de e-mail folosită la înregistrare. O să primiţi link-ul pentru resetarea parolei pe adresa de e-mail respectivă."
+msgstr ""
+"V-aţi uitat parola? Vă rugăm să introduceţi numele de utilizator sau adresa "
+"de e-mail folosită la înregistrare. O să primiţi link-ul pentru resetarea "
+"parolei pe adresa de e-mail respectivă."
 
 #: templates/myaccount/form-lost-password.php:28
 msgid "Enter a new password below."
@@ -7949,7 +8131,9 @@ msgstr "Adresa Mea"
 
 #: templates/myaccount/my-address.php:35
 msgid "The following addresses will be used on the checkout page by default."
-msgstr "Următoarea adresă va fi utilizată în mod implicit pe pagina de Finalizare a Comenzii."
+msgstr ""
+"Următoarea adresă va fi utilizată în mod implicit pe pagina de Finalizare a "
+"Comenzii."
 
 #: templates/myaccount/my-address.php:64
 msgid "You have not set up this type of address yet."
@@ -7994,7 +8178,11 @@ msgid ""
 "To track your order please enter your Order ID in the box below and press "
 "return. This was given to you on your receipt and in the confirmation email "
 "you should have received."
-msgstr "Pentru a urmări comanda dvs. vă rugăm introduceți Codul de Identificare a Comenzii în căsuța de mai jos și apăsați tasta \"Enter\". Codul de Identificare a comenzii a fost trimis odată cu factura și emailul de confirmare a plasării comenzii."
+msgstr ""
+"Pentru a urmări comanda dvs. vă rugăm introduceți Codul de Identificare a "
+"Comenzii în căsuța de mai jos și apăsați tasta \"Enter\". Codul de "
+"Identificare a comenzii a fost trimis odată cu factura și emailul de "
+"confirmare a plasării comenzii."
 
 #: templates/order/form-tracking.php:19
 msgid "Order ID"
@@ -8030,7 +8218,8 @@ msgstr "Telefon:"
 
 #: templates/order/tracking.php:18
 msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
-msgstr "Comanda %s a fost efectuată în data de %s are statusul &ldquo;%s&rdquo;"
+msgstr ""
+"Comanda %s a fost efectuată în data de %s are statusul &ldquo;%s&rdquo;"
 
 #: templates/order/tracking.php:18
 msgid "ago"
