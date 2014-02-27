@@ -10,6 +10,12 @@
 global $states;
 
 $states['RO'] = array(
+	'S1' => __( 'sector 1', 'woocommerce' ),
+	'S2' => __( 'sector 2', 'woocommerce' ),
+	'S3' => __( 'sector 3', 'woocommerce' ),
+	'S4' => __( 'sector 4', 'woocommerce' ),
+	'S5' => __( 'sector 5', 'woocommerce' ),
+	'S6' => __( 'sector 6', 'woocommerce' ),
 	'AB' => __( 'Alba', 'woocommerce' ),
 	'AR' => __( 'Arad', 'woocommerce' ),
 	'AG' => __( 'Arges', 'woocommerce' ),
@@ -41,12 +47,6 @@ $states['RO'] = array(
 	'NT' => __( 'Neamt', 'woocommerce' ),
 	'OT' => __( 'Olt', 'woocommerce' ),
 	'PH' => __( 'Prahova', 'woocommerce' ),
-	'S1' => __( 'sector 1', 'woocommerce' ),
-	'S2' => __( 'sector 2', 'woocommerce' ),
-	'S3' => __( 'sector 3', 'woocommerce' ),
-	'S4' => __( 'sector 4', 'woocommerce' ),
-	'S5' => __( 'sector 5', 'woocommerce' ),
-	'S6' => __( 'sector 6', 'woocommerce' ),
 	'SM' => __( 'Satu Mare', 'woocommerce' ),
 	'SJ' => __( 'Salaj', 'woocommerce' ),
 	'SB' => __( 'Sibiu', 'woocommerce' ),
