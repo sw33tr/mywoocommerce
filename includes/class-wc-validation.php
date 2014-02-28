@@ -27,7 +27,8 @@ class WC_Validation {
 	 * @return  bool
 	 */
 	public static function is_phone( $phone ) {
-		if ( strlen( trim( preg_replace( '/[\s\#0-9_\-\+\(\)]/', '', $phone ) ) ) > 0 )
+		if ( strlen( trim( preg_replace( '/((\(\+4\)|\+4))?[-\s]?\(?((01|02|03|04|05|06|07)\d{2})?\)?[-\s]?\d{3}[-\s]?\d{3}$/', '', $phone ) ) ) > 0 )
+		//if ( strlen( trim( preg_replace( '/[\s\#0-9_\-\+\(\)]/', '', $phone ) ) ) > 0 )
 			return false;
 
 		return true;
