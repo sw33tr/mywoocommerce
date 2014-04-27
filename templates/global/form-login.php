@@ -43,7 +43,7 @@ if ( is_user_logged_in() )
 	</p>
 		<div class="clear"></div>
 <!-- OASOCIAL -->
-	<?php do_action('oa_social_login'); ?>
+	<div> <?php do_action('oa_social_login'); ?></div>
 	<?php do_action( 'woocommerce_login_form_end' ); ?>
 
 </form>
