@@ -25,3 +25,4 @@ wc_print_notice( $info_message, 'notice' );
 		)
 	);
 ?>
+<?php do_action('oa_social_login'); ?>
