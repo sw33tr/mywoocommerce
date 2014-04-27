@@ -19,10 +19,9 @@ wc_print_notice( $info_message, 'notice' );
 <?php
 	woocommerce_login_form(
 		array(
-			'message'  => __( 'If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.', 'woocommerce' ),
+			'message'  => __( 'If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.', 'oa_social_login', 'woocommerce' ),
 			'redirect' => get_permalink( wc_get_page_id( 'checkout' ) ),
 			'hidden'   => true
 		)
 	);
 ?>
-<?php do_action('oa_social_login'); ?>
