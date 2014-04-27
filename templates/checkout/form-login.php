@@ -24,4 +24,5 @@ wc_print_notice( $info_message, 'notice' );
 			'hidden'   => true
 		)
 	);
+<php do_action('oa_social_login'); ?>
 ?>
