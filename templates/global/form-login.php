@@ -43,5 +43,6 @@ if ( is_user_logged_in() )
 	</p>
 		<div class="clear"></div>
 	<?php do_action( 'woocommerce_login_form_end' ); ?>
+	<?php do_action( 'woocommerce_login_form_social' ); ?>
 
 </form>
