@@ -42,6 +42,6 @@ if ( is_user_logged_in() )
 		<a href="<?php echo esc_url( wc_lostpassword_url() ); ?>"><?php _e( 'Lost your password?', 'woocommerce' ); ?></a>
 	</p>
 		<div class="clear"></div>
-S	<?php do_action( 'woocommerce_login_form_end' ); ?>
+	<?php do_action( 'woocommerce_login_form_end' ); ?>
 
 </form>
