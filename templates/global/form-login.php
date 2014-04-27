@@ -41,7 +41,8 @@ if ( is_user_logged_in() )
 	<p class="lost_password">
 		<a href="<?php echo esc_url( wc_lostpassword_url() ); ?>"><?php _e( 'Lost your password?', 'woocommerce' ); ?></a>
 	</p>
-S	<?php do_action('oa_social_login'); ?>
+	<!-- OASOCIAL -->
+	<?php do_action('oa_social_login'); ?>
 	<div class="clear"></div>
 
 	<?php do_action( 'woocommerce_login_form_end' ); ?>
