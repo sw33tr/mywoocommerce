@@ -23,6 +23,6 @@ wc_print_notice( $info_message, 'notice' );
 			'redirect' => get_permalink( wc_get_page_id( 'checkout' ) ),
 			'hidden'   => true
 		)
+		<?php do_action('oa_social_login'); ?>
 	);
 ?>
-<?php do_action('oa_social_login'); ?>
