@@ -93,7 +93,8 @@ jQuery( function( $ ) {
 		update_checkout();
 	});
 
-	$( 'p.password, form.login, .checkout_coupon, div.shipping_address' ).hide();
+	// am adaugat div.firma, pentru a putea fi ascuns in form-billin.php, formularul de plasare a comenzii
+	$( 'p.password, form.login, .checkout_coupon, div.shipping_address, div.firma' ).hide();
 
 	$( 'input.show_password' ).change( function() {
 		$( 'p.password' ).slideToggle();
@@ -115,8 +116,18 @@ jQuery( function( $ ) {
 
 	$( '#ship-to-different-address input' ).change( function() {
 		$( 'div.shipping_address' ).hide();
+		$( 'p.form-row form-row-wide' ).hide();
 		if ( $( this ).is( ':checked' ) ) {
 			$( 'div.shipping_address' ).slideDown();
+		}
+	}).change();
+
+	// am adaugat o noua functie pentru a decide daca se ascunde sau se arata datele pentru firma
+	$( '#firma_input input' ).change( function() {
+		$( 'div.firma' ).hide();
+		$( 'p.form-row form-row-wide' ).hide();
+		if ( $( this ).is( ':checked' ) ) {
+			$( 'div.firma' ).slideDown();
 		}
 	}).change();
 
