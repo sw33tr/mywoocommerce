@@ -124,7 +124,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	// checkbox-ul pentru ascunderea field-urilor pt firma. (comp_name, cui, reg com, banca )
 	echo '<h3 id="firma_input">';
 		// "firma?" schimbi tu cum vrei sa arate 
-		echo '<label for="firma-checkbox" class="checkbox">'. _e( 'firma?', 'woocommerce' ).'</label>';
+		echo '<label for="firma-checkbox" class="checkbox">'. _e( 'Persoană juridică?', 'woocommerce' ).'</label>';
 		echo '<input id="firma-checkbox" class="input-checkbox" type="checkbox" name="firma" value="1" />';
 	echo '</h3>';
 
