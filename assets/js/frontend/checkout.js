@@ -134,18 +134,24 @@ jQuery( function( $ ) {
 		clearTimeout( updateTimer );
 		update_checkout();
 	});
+<<<<<<< HEAD
 	// am adaugat div.firma, pentru a putea fi ascuns in form-billin.php, formularul de plasare a comenzii
 	$( 'p.password, form.login, .checkout_coupon, div.shipping_address, div.firma' ).hide();
 
 	$( 'input.show_password' ).change( function() {
 		$( 'p.password' ).slideToggle();
 	});
+=======
+
+	$( '.checkout_coupon, div.shipping_address' ).hide();
+>>>>>>> parent of f959799... upgrade 2.3.5
 
 	$( 'a.showlogin' ).click( function() {
 		$( 'form.login' ).slideToggle();
 
 		return false;
 	});
+<<<<<<< HEAD
 
 	$( 'a.showcoupon' ).click( function() {
 		$( '.checkout_coupon' ).slideToggle( 400, function() {
@@ -197,6 +203,49 @@ jQuery( function( $ ) {
 			if ( $( this ).is( ':checked' ) && ! target_payment_box.is( ':visible' ) ) {
 				$( 'div.payment_box' ).filter( ':visible' ).slideUp( 250 );
 
+=======
+
+	$( 'a.showcoupon' ).click( function() {
+		$( '.checkout_coupon' ).slideToggle( 400, function() {
+			$( '#coupon_code' ).focus();
+		});
+
+		return false;
+	});
+
+	$( '#ship-to-different-address input' ).change( function() {
+		$( 'div.shipping_address' ).hide();
+		if ( $( this ).is( ':checked' ) ) {
+			$( 'div.shipping_address' ).slideDown();
+		}
+	}).change();
+
+	if ( wc_checkout_params.option_guest_checkout === 'yes' ) {
+
+		$( 'div.create-account' ).hide();
+
+		$( 'input#createaccount' ).change( function() {
+			$( 'div.create-account' ).hide();
+
+			if ( $( this ).is( ':checked' ) ) {
+				$( 'div.create-account' ).slideDown();
+			}
+		}).change();
+
+	}
+
+	$( '#order_review' )
+
+	/* Payment option selection */
+
+	.on( 'click', '.payment_methods input.input-radio', function() {
+		if ( $( '.payment_methods input.input-radio' ).length > 1 ) {
+			var target_payment_box = $( 'div.payment_box.' + $( this ).attr( 'ID' ) );
+
+			if ( $( this ).is( ':checked' ) && ! target_payment_box.is( ':visible' ) ) {
+				$( 'div.payment_box' ).filter( ':visible' ).slideUp( 250 );
+
+>>>>>>> parent of f959799... upgrade 2.3.5
 				if ( $( this ).is( ':checked' ) ) {
 					$( 'div.payment_box.' + $( this ).attr( 'ID' ) ).slideDown( 250 );
 				}

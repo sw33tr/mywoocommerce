@@ -95,6 +95,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 								<?php woocommerce_form_field( $key, $field, $checkout->get_value( $key ) ); ?>
 
+<<<<<<< HEAD
 							<?php endforeach; ?>
 
 							<div class="clear"></div>
@@ -142,4 +143,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	?>
 
 
+=======
+	<?php endif; ?>
+>>>>>>> parent of f959799... upgrade 2.3.5
 </div>

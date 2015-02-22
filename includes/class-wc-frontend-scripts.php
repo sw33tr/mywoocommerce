@@ -95,6 +95,7 @@ class WC_Frontend_Scripts {
 			}
 
 			wp_enqueue_script( 'wc-checkout', $frontend_script_path . 'checkout' . $suffix . '.js', array( 'jquery', 'woocommerce', 'wc-country-select', 'wc-address-i18n' ), WC_VERSION, true );
+<<<<<<< HEAD
 		}
 
 		if ( is_page( get_option( 'woocommerce_myaccount_page_id' ) ) ) {
@@ -113,6 +114,28 @@ class WC_Frontend_Scripts {
 		 	wp_enqueue_script( 'prettyPhoto-init', $assets_path . 'js/prettyPhoto/jquery.prettyPhoto.init' . $suffix . '.js', array( 'jquery' ), WC_VERSION, true );
 		 	wp_enqueue_style( 'woocommerce_prettyPhoto_css', $assets_path . 'css/prettyPhoto.css' );
 		}
+=======
+		}
+
+		if ( is_page( get_option( 'woocommerce_myaccount_page_id' ) ) ) {
+			if ( get_option( 'woocommerce_enable_chosen' ) == 'yes' ) {
+				wp_enqueue_script( 'wc-chosen', $frontend_script_path . 'chosen-frontend' . $suffix . '.js', array( 'chosen' ), WC_VERSION, true );
+				wp_enqueue_style( 'woocommerce_chosen_styles', $assets_path . 'css/chosen.css' );
+			}
+		}
+
+		if ( is_add_payment_method_page() )
+			wp_enqueue_script( 'wc-add-payment-method', $frontend_script_path . 'add-payment-method' . $suffix . '.js', array( 'jquery', 'woocommerce' ), WC_VERSION, true );
+
+		if ( $lightbox_en && ( is_product() || ( ! empty( $post->post_content ) && strstr( $post->post_content, '[product_page' ) ) ) ) {
+			wp_enqueue_script( 'prettyPhoto', $assets_path . 'js/prettyPhoto/jquery.prettyPhoto' . $suffix . '.js', array( 'jquery' ), '3.1.5', true );
+			wp_enqueue_script( 'prettyPhoto-init', $assets_path . 'js/prettyPhoto/jquery.prettyPhoto.init' . $suffix . '.js', array( 'jquery','prettyPhoto' ), WC_VERSION, true );
+			wp_enqueue_style( 'woocommerce_prettyPhoto_css', $assets_path . 'css/prettyPhoto.css' );
+		}
+
+		if ( is_product() )
+			wp_enqueue_script( 'wc-single-product' );
+>>>>>>> parent of f959799... upgrade 2.3.5
 
 		//MODIFICARE prettyPhoto
 		// if ( $lightbox_en && ( is_product() || ( ! empty( $post->post_content ) && strstr( $post->post_content, '[product_page' ) ) ) ) {

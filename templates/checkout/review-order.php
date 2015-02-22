@@ -176,7 +176,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 				$terms_is_checked = apply_filters( 'woocommerce_terms_is_checked_default', isset( $_POST['terms'] ) );
 				?>
 				<p class="form-row terms">
+<<<<<<< HEAD
 					<label for="terms" class="checkbox"><?php printf( __( 'Am citit și accept <a href="%s" target="_blank">termenii &amp; condițiile</a>', 'woocommerce' ), esc_url( get_permalink( wc_get_page_id( 'terms' ) ) ) ); ?></label>
+=======
+					<label for="terms" class="checkbox"><?php printf( __( 'I&rsquo;ve read and accept the <a href="%s" target="_blank">terms &amp; conditions</a>', 'woocommerce' ), esc_url( get_permalink( wc_get_page_id( 'terms' ) ) ) ); ?></label>
+>>>>>>> parent of f959799... upgrade 2.3.5
 					<input type="checkbox" class="input-checkbox" name="terms" <?php checked( $terms_is_checked, true ); ?> id="terms" />
 				</p>
 			<?php } ?>
@@ -191,4 +195,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	<?php do_action( 'woocommerce_review_order_after_payment' ); ?>
 
+<<<<<<< HEAD
 <?php if ( ! $is_ajax ) : ?></div><?php endif; ?>
+=======
+<?php if ( ! $is_ajax ) : ?></div><?php endif; ?>
+>>>>>>> parent of f959799... upgrade 2.3.5
