@@ -59,7 +59,7 @@ if ( ! comments_open() ) {
 					$comment_form = array(
 						'title_reply'          => have_comments() ? __( 'Add a review', 'woocommerce' ) : __( 'Be the first to review', 'woocommerce' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
 						'title_reply_to'       => __( 'Leave a Reply to %s', 'woocommerce' ),
-						'comment_notes_before' => '',
+						'comment_notes_before' => 'Va rugam să folosiți formularul numai pentru comentarii asupra produsului. Pentru informații/comenzi folosiți pagina de contact. Mulțumim.',
 						'comment_notes_after'  => '',
 						'fields'               => array(
 							'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name', 'woocommerce' ) . ' <span class="required">*</span></label> ' .
