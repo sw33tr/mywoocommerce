@@ -59,7 +59,7 @@ if ( ! comments_open() ) {
 					$comment_form = array(
 						'title_reply'          => have_comments() ? __( 'Add a review', 'woocommerce' ) : __( 'Be the first to review', 'woocommerce' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
 						'title_reply_to'       => __( 'Leave a Reply to %s', 'woocommerce' ),
-						'comment_notes_before' => '',
+						'comment_notes_before' => 'Va rugam să folosiți formularul numai pentru comentarii asupra produsului. Pentru informații/comenzi folosiți pagina de contact. Mulțumim.',
 						'comment_notes_after'  => '',
 						'fields'               => array(
 							'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name', 'woocommerce' ) . ' <span class="required">*</span></label> ' .
@@ -71,6 +71,10 @@ if ( ! comments_open() ) {
 						'logged_in_as'  => '',
 						'comment_field' => ''
 					);
+
+					if ( $account_page_url = wc_get_page_permalink( 'myaccount' ) ) {
+						$comment_form['must_log_in'] = '<p class="must-log-in">' .  sprintf( __( 'You must be <a href="%s">logged in</a> to post a review.', 'woocommerce' ), esc_url( $account_page_url ) ) . '</p>';
+					}
 
 					if ( get_option( 'woocommerce_enable_review_rating' ) === 'yes' ) {
 						$comment_form['comment_field'] = '<p class="comment-form-rating"><label for="rating">' . __( 'Your Rating', 'woocommerce' ) .'</label><select name="rating" id="rating">
