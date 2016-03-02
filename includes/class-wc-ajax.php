@@ -2535,12 +2535,7 @@ class WC_AJAX {
 				$variation_data['image']          = $variation_data['_thumbnail_id'] ? wp_get_attachment_thumb_url( $variation_data['_thumbnail_id'] ) : '';
 				$variation_data['shipping_class'] = $shipping_classes && ! is_wp_error( $shipping_classes ) ? current( $shipping_classes )->term_id : '';
 				$variation_data['menu_order']     = $variation->menu_order;
-				$variation_data['_stock']         = wc_stock_amount( $variation_data['_stock'] );
-
-				// Stock BW compat
-				if ( '' !== $variation_data['_stock'] ) {
-					$variation_data['_manage_stock'] = 'yes';
-				}
+				$variation_data['_stock']         = '' === $variation_data['_stock'] ? '' : wc_stock_amount( $variation_data['_stock'] );
 
 				include( 'admin/meta-boxes/views/html-variation-admin.php' );
 
@@ -2970,12 +2965,12 @@ class WC_AJAX {
 	 * Handle submissions from assets/js/settings-views-html-settings-tax.js Backbone model.
 	 */
 	public static function tax_rates_save_changes() {
-		if ( ! isset( $_POST['current_class'], $_POST['wc_tax_nonce'], $_POST['changes'] ) ) {
+		if ( ! isset( $_POST['wc_tax_nonce'], $_POST['changes'] ) ) {
 			wp_send_json_error( 'missing_fields' );
 			exit;
 		}
 
-		$current_class = $_POST['current_class']; // This is sanitized seven lines later.
+		$current_class = ! empty( $_POST['current_class'] ) ? $_POST['current_class'] : ''; // This is sanitized seven lines later.
 
 		if ( ! wp_verify_nonce( $_POST['wc_tax_nonce'], 'wc_tax_nonce-class:' . $current_class ) ) {
 			wp_send_json_error( 'bad_nonce' );

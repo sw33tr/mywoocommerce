@@ -1,9 +1,9 @@
 === WooCommerce ===
 Contributors: automattic, mikejolley, jameskoster, claudiosanches, royho, woothemes
-Tags: ecommerce, e-commerce, store, sales, sell, shop, cart, checkout, downloadable, downloads, paypal, shipping, storefront
+Tags: ecommerce, e-commerce, store, sales, sell, shop, cart, checkout, downloadable, downloads, paypal, storefront
 Requires at least: 4.1
 Tested up to: 4.4
-Stable tag: 2.5.1
+Stable tag: 2.5.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -157,6 +157,56 @@ Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/wooc
 6. A product archive (grid).
 
 == Changelog ==
+
+= 2.5.3 - 01/03/2016 =
+* Fix - Correct the 'unavailable template' call for variations so the message is displayed correctly, fixing a JS error.
+* Fix - Add 'media-models' dependency to write panel scripts.
+* Fix - Fix hide empty check in category walkers.
+* Fix - Current class fix on some servers when empty.
+* Fix - Multibyte safe trim string function.
+* Fix - Prevent a notice by stopping a loop in woocommerce_products_will_display from stomping on other variables.
+* Fix - If an attribute meta key is not set, technically its 'any', so should match. Prevents issues when meta data is missing after renaming attributes.
+* Fix - Make wc_get_product_variation_attributes ignore non variation attributes.
+* Fix - Notice when no order notes exist.
+* Fix - Removed extra tab from plain email shipping address.
+* Fix - Round shipping after tax calculation instead of before to prevent wrong taxes being calculated.
+* Fix - State input box was not reappearing when switching from a hidden input to a text input.
+* Fix - Don't duplicate rating and review counts.
+* Fix - CLI - Allow setting of a single category.
+* Fix - API - Replace term_taxonomy_id for term_id whilst creating/editing terms.
+* Fix - API - Fix parent_id and menu_order for variations.
+* Fix - Combine update post calls when update_status is ran.
+* Fix - Total number of comments in the admin panel.
+* Tweak - Show customer details for logged in users only on thanks page to prevent customer details being revealed if someone finds out the URL.
+* Tweak - Wrap status report in backticks to stop people breaking .org forums.
+* Tweak - Error handling for screen ids.
+* Tweak - Use $wpdb->replace instead of doing a select and then deciding to do an update or insert in session handler.
+* Tweak - Added check for private WooCommerce pages in status report.
+* Tweak - Transactional emails for failed -> on hold.
+* Dev - Include new triggers when removing and adding the password strength meter.
+* Dev - Allow pass objects and arrays as webhook callbacks.
+
+= 2.5.2 - 01/02/2016 =
+* Fix - Compatibility with w3 total cache inline minification.
+* Fix - Remove stock bw compat code which was preventing manage stock being disabled at variation level.
+* Fix - When calculating shipping total, force rounding.
+* Fix - Make save button clickable in tax rate table after using autocomplete field.
+* Fix - Fix passed image_size variable in email templates.
+* Fix - Don't show purchase note to admin in emails.
+* Fix - Fix 'hide empty' setting in category widget .
+* Fix - Prevent notice in get_allowed_countries.
+* Fix - Prevent add-to-cart querystring in pagination links.
+* Tweak - Allow propagation in variation script.
+* Tweak - Product image alt text.
+* Tweak - Remove notice and add styling for add payment page.
+* Tweak - Set input margin and label display for compatibility with themes using bootstrap CSS.
+* Tweak - Add context to category term localization.
+* Tweak - Moved cart URL functions to core-functions file to make them available in admin area.
+* Tweak - Added password hint text and error messages when showing the password strength meter in forms.
+* Tweak - Added Saudi Riyal currency.
+* Tweak - Added Russian Ruble symbol.
+* Tweak - When COOKIEPATH is an empty string, set to '/' so cookies work across all pages.
+* Dev - Template - Pass $category into wc_product_cat_class() in content-product_cat.php
 
 = 2.5.1 - 25/01/2016 =
 * Fix - Remove usage of get_currentuserinfo() which is deprecated in WordPress 4.5.
